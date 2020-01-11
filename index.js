@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const jokes = require('./jokes');
+const fetch = require('node-fetch');
 
 
 bot.login('NjU1NTQzNjg4NjU4OTQ0MDEx.XfVzYQ.C6e-PSLqmMd7jDNSRO0IePBe828');
@@ -23,7 +23,11 @@ bot.on('message', msg => {
     dad("I am")
     
     if (userMsg === "!joke") {
-        let random = Math.floor(Math.random() * jokes.length);
-        msg.reply(jokes[random]);
+        fetch(`https://icanhazdadjoke.com/slack`)
+            .then(resp => resp.json())
+            .then(json => {
+                msg.reply(json.attachments[0].text);
+            })
     }
 });
+
