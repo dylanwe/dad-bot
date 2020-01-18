@@ -11,7 +11,7 @@ bot.on('message', msg => {
     function dad(filter) {
         if (userMsg.includes(`${filter} `) && msg.author.bot === false) {
             dadMsg = userMsg.split(`${filter} `).pop();
-            msg.reply(`Hi ${dadMsg}, i'm dad.`);
+            msg.reply(`Hi ${dadMsg}, I'm dad.`);
         }
     }
     dad("i'm")
