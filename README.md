@@ -6,4 +6,4 @@
  ![joke](img/joke.png)
 
  When someone types a string containing I'm or simular it will create the typical `Hey blank I'm Dad` joke.
- ![im](img/img.png)
+ ![im](img/im.png)
