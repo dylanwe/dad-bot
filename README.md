@@ -3,6 +3,7 @@
  
 ## Functions
  When the bot is online you can type the command `!joke` which will pull a joke from https://icanhazdadjoke.com/ and display it in the chat like so:
-![joke](img/joke.png)
+ ![joke](img/joke.png)
 
-![dad img](https://i.imgur.com/gCaxjN5.jpg)
+ When someone types a string containing I'm or simular it will create the typical `Hey blank I'm Dad` joke.
+ ![im](img/img.png)
