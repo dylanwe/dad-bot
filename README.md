@@ -1,5 +1,5 @@
 # dad-bot
- A fun little project that I made with Node.JS
+ I was messing around with Node.js for a while until a friend challenged me to create a Discord bot. I had seen such a thing come by ones and decided to take on the challenge, so here is a fun little project that I made with Node.JS, the icanhazdadjoke API and the node fetch module.
  
 ## Functions
  When the bot is online you can type the command `!joke` which will pull a joke from https://icanhazdadjoke.com/ and display it in the chat like so:
