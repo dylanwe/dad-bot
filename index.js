@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 const fetch = require('node-fetch');
 
 
-bot.login('BOTKEY');
+bot.login('NjU1NTQzNjg4NjU4OTQ0MDEx.XwA6QA.7y5WmX34xwZRkKcO6tZMzHvC5_s');
 
 bot.on('message', msg => {
     let userMsg = msg.content;
