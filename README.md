@@ -5,7 +5,9 @@
  
 ## Functions
  When the bot is online you can type the command `!joke` which will pull a joke from https://icanhazdadjoke.com/ and display it in the chat like so:
+ 
  ![joke](img/joke.png)
 
  When someone types a string containing I'm or alike it will produce the typical `Hey blank I'm Dad` joke.
+ 
  ![im](img/im.png)
