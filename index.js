@@ -14,13 +14,13 @@ bot.on('message', msg => {
             msg.reply(`Hi ${dadMsg}, I'm dad.`);
         }
     }
-    dad("i'm")
-    dad("im")
-    dad("I'm")
-    dad("Im")
-    dad("I’m")
-    dad("i’m")
-    dad("I am")
+    dad("i'm ")
+    dad("im ")
+    dad("I'm ")
+    dad("Im ")
+    dad("I’m ")
+    dad("i’m ")
+    dad("I am ")
     
     if (userMsg === "!joke") {
         fetch(`https://icanhazdadjoke.com/slack`)
