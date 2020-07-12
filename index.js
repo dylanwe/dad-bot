@@ -30,4 +30,3 @@ bot.on('message', msg => {
             })
     }
 });
-
