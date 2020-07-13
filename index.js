@@ -1,9 +1,10 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const fetch = require('node-fetch');
+require('dotenv').config()
 
 
-bot.login('NjU1NTQzNjg4NjU4OTQ0MDEx.XwA6QA.7y5WmX34xwZRkKcO6tZMzHvC5_s');
+bot.login(process.env.APIKEY);
 
 bot.on('message', msg => {
     let userMsg = msg.content;
