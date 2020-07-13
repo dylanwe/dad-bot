@@ -16,9 +16,7 @@ bot.on('message', msg => {
         }
     }
     dad("i'm ")
-    dad("im ")
     dad("I'm ")
-    dad("Im ")
     dad("I’m ")
     dad("i’m ")
     dad("I am ")
