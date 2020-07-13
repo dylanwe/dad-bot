@@ -4,7 +4,7 @@ const fetch = require('node-fetch');
 require('dotenv').config()
 
 
-bot.login(process.env.APIKEY);
+bot.login(process.env.TOKEN);
 
 bot.on('message', msg => {
     let userMsg = msg.content;
